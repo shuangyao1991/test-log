@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/Program Files/gradle-2.10" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/jcl-to-slf4j" />
+            <option value="$PROJECT_DIR$/jcl_jul" />
+            <option value="$PROJECT_DIR$/jcl_log4j" />
+            <option value="$PROJECT_DIR$/jul-to-slf4j" />
+            <option value="$PROJECT_DIR$/log4j-to-slf4j" />
+            <option value="$PROJECT_DIR$/slf4j-to-jul" />
+            <option value="$PROJECT_DIR$/slf4j-to-log4j" />
+            <option value="$PROJECT_DIR$/slf4j-to-logback" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/jcl-to-slf4j" />
+            <option value="$PROJECT_DIR$/jcl_jul" />
+            <option value="$PROJECT_DIR$/jcl_log4j" />
+            <option value="$PROJECT_DIR$/jul-to-slf4j" />
+            <option value="$PROJECT_DIR$/log4j-to-slf4j" />
+            <option value="$PROJECT_DIR$/slf4j-to-jul" />
+            <option value="$PROJECT_DIR$/slf4j-to-log4j" />
+            <option value="$PROJECT_DIR$/slf4j-to-logback" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+rootProject.name = 'test-log'
+include 'jcl_jul'
+include 'jcl_log4j'
+include 'slf4j-to-jul'
+include 'slf4j-to-log4j'
+include 'slf4j-to-logback'
+include 'jul-to-slf4j'
+include 'jcl-to-slf4j'
+include 'log4j-to-slf4j'
+
