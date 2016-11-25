@@ -1,10 +1,26 @@
 allprojects {
-    group 'ys'
+    group 'ys.test'
     version '1.0-SNAPSHOT'
 
+    ext.junitVersion = '4.11'
+
+    ext.slf4jVersion = '1.7.21'
+    ext.commonLoggingVersion = '1.1.3'
+    ext.log4jVersion = '1.2.17'
+    ext.logbackVersion = '1.1.2'
+
+    ext.julToSlf4jVersion = '1.7.21'
+    ext.jclOverSlf4jVersion = '1.7.21'
+    ext.log4jOverSlf4jVersion = '1.7.21'
+
+    ext.slf4jJdk14Version = '1.7.19'
+    ext.slf4jLog4j = '1.7.21'
+}
+
+subprojects {
     apply plugin: 'java'
 
-    sourceCompatibility = 1.5
+    sourceCompatibility = 1.7
 
     repositories {
         mavenLocal()
@@ -12,7 +28,6 @@ allprojects {
     }
 
     dependencies {
-        testCompile group: 'junit', name: 'junit', version: '4.11'
+        testCompile "junit:junit:${junitVersion}"
     }
-
 }

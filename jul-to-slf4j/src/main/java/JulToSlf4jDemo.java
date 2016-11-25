@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 /**
  * Created with by shuangyao on 2016/10/10.
  */
-public class Test {
+public class JulToSlf4jDemo {
 
     public static void main(String[] args) {
 //        testJUL();
@@ -15,7 +15,7 @@ public class Test {
     }
 
     public static void testJUL() {
-        Logger logger = Logger.getLogger(Test.class.getName());
+        Logger logger = Logger.getLogger(JulToSlf4jDemo.class.getName());
         System.out.println(logger.getName());
         logger.log(Level.WARNING, "warning test");
         logger.log(Level.INFO, "info test");

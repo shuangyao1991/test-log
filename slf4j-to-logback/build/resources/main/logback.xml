@@ -1,4 +1,6 @@
-<configuration>
+<configuration packagingData="true">
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
+
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <charset>UTF-8</charset>
@@ -6,7 +8,9 @@
         </encoder>
     </appender>
 
-    <root level="DEBUG">
+
+
+    <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
 

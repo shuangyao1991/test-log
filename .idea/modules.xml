@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-log.iml" filepath="$PROJECT_DIR$/java-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/jcl-to-slf4j/jcl-to-slf4j.iml" filepath="$PROJECT_DIR$/jcl-to-slf4j/jcl-to-slf4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/jcl_jul/jcl_jul.iml" filepath="$PROJECT_DIR$/jcl_jul/jcl_jul.iml" />
       <module fileurl="file://$PROJECT_DIR$/jcl_log4j/jcl_log4j.iml" filepath="$PROJECT_DIR$/jcl_log4j/jcl_log4j.iml" />
@@ -10,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/slf4j-to-jul/slf4j-to-jul.iml" filepath="$PROJECT_DIR$/slf4j-to-jul/slf4j-to-jul.iml" />
       <module fileurl="file://$PROJECT_DIR$/slf4j-to-log4j/slf4j-to-log4j.iml" filepath="$PROJECT_DIR$/slf4j-to-log4j/slf4j-to-log4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/slf4j-to-logback/slf4j-to-logback.iml" filepath="$PROJECT_DIR$/slf4j-to-logback/slf4j-to-logback.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test-log.iml" filepath="$PROJECT_DIR$/test-log.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-rootProject.name = 'test-log'
+rootProject.name = 'java-log'
 include 'jcl_jul'
 include 'jcl_log4j'
 include 'slf4j-to-jul'

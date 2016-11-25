@@ -1,4 +1,4 @@
 dependencies {
-    compile 'org.slf4j:slf4j-api:1.7.5'
-    compile 'org.slf4j:slf4j-jdk14:1.7.19'
+    compile "org.slf4j:slf4j-api:${slf4jVersion}"
+    compile "org.slf4j:slf4j-jdk14:${slf4jJdk14Version}"
 }
